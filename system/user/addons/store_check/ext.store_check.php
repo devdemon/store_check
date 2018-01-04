@@ -2,11 +2,7 @@
 
 class Store_check_ext
 {
-    public $name = 'Store Check Payments';
     public $version = '1.0.0';
-    public $description = 'Example custom payment gateway for Expresso Store';
-    public $settings_exist = 'n';
-    public $docs_url = 'https://exp-resso.com/docs';
 
     public function activate_extension()
     {

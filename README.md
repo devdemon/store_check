@@ -1,3 +1,7 @@
+The current code is for EE3/EE4. For the EE2 sample, [go here](https://github.com/devdemon/store_check/releases/tag/EE2). 
+
+---
+
 # Store Check Extension
 
 This is an example payment gateway extension for Expresso Store. It adds a new payment
@@ -9,6 +13,10 @@ payment gateways with different names.
 
 The same package layout can be used to add support for any payment gateway, without
 having to modify core Store files. This makes future upgrades of Store much easier.
+
+### addon.setup.php
+
+All ExpressionEngine addons [require this](https://docs.expressionengine.com/latest/development/addon_setup_php_file.html). It provides the name, version, and other metadata for the add-on.
 
 ### ext.store_check.php
 
@@ -25,4 +33,4 @@ please see the [Omnipay project](https://github.com/omnipay/omnipay).
 
 ### License
 
-This gateway is distributed under the terms of the [MIT license](https://github.com/expressodev/store_check/blob/master/LICENSE).
+This gateway is distributed under the terms of the [MIT license](https://github.com/devdemon/store_check/blob/master/LICENSE).
